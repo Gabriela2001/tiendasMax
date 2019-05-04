@@ -1,0 +1,40 @@
+<ion-view view-title="Categorías">
+  <ion-content>
+  	<!--
+    <div class="container">
+    	<div class="row">
+			<div class="col col-50" ng-repeat="x in categorias">
+				<div class="rf">
+					<i class="{{x}}"></i>
+				</div>
+			</div>
+ 		</div>
+    </div>
+-->
+	<br><br>
+ 	<img src="../img/logo.png" class="logo ">
+ 	<br><br>
+ 			
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col col-50" ng-repeat="x in categorias" >
+			 	<div class="rf borde">
+			 		<center>
+			 		<ul>
+			 			<li class="padding">
+			 				<span>{{x.nombre}}</span>
+			 				<hr>
+			 			</li>
+			 			<li class="icono">
+			 				<i class="{{x.icono}}"></i>
+			 			</li>
+			 		</ul>	
+			 		</center>	
+			 	</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+  </ion-content>
+</ion-view>

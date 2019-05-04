@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+.borde{
+	border:1px solid black;
+	width: 100%;
+	height:120px;
+}
+.row{
+	flex-wrap:wrap;
+}
+.icono{
+	font-size:50px;
+
+}
+.padding{
+	padding-top: 2%;
+}
+.logo{
+	text-align:center;
+	height: 100px;
+	width: 75%;
+	
